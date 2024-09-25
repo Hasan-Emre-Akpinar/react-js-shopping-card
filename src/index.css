@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Quicksand';
+  color: #333;
+}
+
+.Navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: rgb(250, 250, 255);
+}
+
+.Navbar h1 {
+  color: #f1356d;
+  margin-right: 1400px;
+  margin-left: 50px;
+}
+
+.Navbar .links {
+  margin-left: auto;
+}
+.Navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.Navbar a:hover {
+  color: #f1356d;
+}
+
+.content {
+  display: flex;
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  
+  padding-top: 100px;
+  padding-bottom: 50px;
+  
+}
+
+.Products{
+  padding: 10px 16px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.product{
+ 
+  padding-right: 50px;
+}
+
+.AddToCartBtn{
+
+}
+
+.DisplayCartBtn{
+
+}
+
+
+
